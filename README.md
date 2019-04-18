@@ -2,11 +2,11 @@
 
 # Project Summary
 
-In this project, you will be given three levels of practice using HTML and CSS. Each level will contain three or less steps. Each step will build on the last step and will contain an image file. You can use that image file as reference. The goal is to try to get as close as possible to the image's layout, using HTML and CSS that you write yourself.
+In this project, you will be given three levels of practice using HTML and CSS. Each level will contain three or less steps. Each step will build on the last step and will contain an image file. You will use the image file as a reference for what the result should look like. The goal is to try to get as close as possible to the image's layout, using HTML and CSS that you write yourself.
 
 If you get stuck on a level you can view the solution folder provided in each level. Try to only use this folder as a last resort.
 
-Don't worry about being pixel perfect, and don't worry if your code doesn't match the solution exactly. As long as it looks the same as the provided image, you're doing it right.
+Don't worry about being pixel perfect and don't worry if your code doesn't match the solution exactly. As long as it looks close to the provided image, you're doing it right.
 
 # Level 1
 
@@ -14,11 +14,11 @@ Don't worry about being pixel perfect, and don't worry if your code doesn't matc
 
 * Open `level-1/index.html` && `level-1/step-1.css` && `level-1/step-1.jpg`.
 * Locate the element with the class of `content-left`.
-  * Position this element to the left side of the screen.
+  * Position this element to the left side of the screen using `float`.
 * Locate the element with the class of `content-mid`.
-  * Position this element to appear just to the right of `content-left` and take up the remaining space.
+  * Position this element with `float` to appear just to the right of `content-left` and take up the remaining space.
 * Locate the element with the class of `footer`.
-  * Position this element to appear at the bottom of the page.
+  * Position this element to appear at the bottom of the page using the `clear` property.
 
 ## Step 2
 
@@ -58,11 +58,9 @@ Don't worry about being pixel perfect, and don't worry if your code doesn't matc
 * Locate the element with the class of `menu`, `logo` and `sign-in`.
   * Assign a display that will allow these elements to appear on the same line.
 * Locate the element with the class of `menu`.
-  * Assign a position, left, and top.
+  * Use `float` to position the element to the left.
 * Locate the element with the class of `sign-in`.
-  * Assign a position, right, and top.
-* Locate the element with the class of `bottom-container`
-  * Assign a position and bottom property so it slightly overlaps the container below it.
+  * Use `float` to position the element to the right.
 
 ## Step 2
 
@@ -77,6 +75,8 @@ Don't worry about being pixel perfect, and don't worry if your code doesn't matc
   * Add a width, height, and margin.
 
 # Level 3
+
+In level three, you will see some CSS properties that you haven't been exposed to just yet. Take this opportunity to do a little sefl study but know that you will be exposed to it during a later lecture.
 
 ## Step 1
 
@@ -113,7 +113,7 @@ If you see a problem or a typo, please fork, make the necessary changes, and cre
 
 ## Copyright
 
-© DevMountain LLC, 2017. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
+© DevMountain LLC, 2019. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
 
 <p align="center">
 <img src="https://s3.amazonaws.com/devmountain/readme-logo.png" width="250">

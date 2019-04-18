@@ -4,7 +4,7 @@
     background: #D8D8D8;
 }
 
-/* I would suggest using float to get this container in its desired location. */
+/* Use float to get this container in its desired location. */
 
 .content-left {
     width: 34%;
@@ -14,7 +14,7 @@
 }
 
 
-/* I would suggest using float to get this container in its desired location. */
+/* Use float to get this container in its desired location. */
 
 .content-mid {
     width: 66%;
@@ -23,7 +23,7 @@
     background: #B0B0B0;
 }
 
-/* I would suggest using position to get this container to the bottom of the screen  */
+/* Use float to get this container to the bottom of the screen  */
 
 .footer {
     width: 100%;
